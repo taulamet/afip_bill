@@ -63,7 +63,7 @@
     span.cls_002, div.cls_002, span.cls_005, div.cls_005, span.cls_006, div.cls_006, span.cls_007, div.cls_007,
     span.cls_008, div.cls_008, span.cls_011, div.cls_011, span.cls_012, div.cls_012, span.cls_013, div.cls_013,
     span.cls_014, div.cls_014 {
-      font-family: Arial, serif, Liberation Sans;
+      font-family: "Liberation Sans", Arial, serif;
       text-decoration: none;
       font-weight:bold;
       font-style:normal;
@@ -187,7 +187,7 @@
   <div style="left:21.00px;top:189.59px" class="cls_002"><span class="cls_002">CUIT:</span></div>
   <div style="left:52.00px;top:189.59px" class="cls_006"><span class="cls_006"><%= afip_bill["doc_num"] %></span></div>
   <div style="left:205.97px;top:189.59px" class="cls_002"><span class="cls_002">Apellido y Nombre / Razón Social:</span></div>
-  <div style="left:354.00px;top:190.63px" class="cls_008"><span class="cls_008"><%= bill_type == "a" ? user.company_name : user.owner_name %></span></div>
+  <div style="left:360.00px;top:190.63px" class="cls_008"><span class="cls_008"><%= bill_type == "a" ? user.company_name : user.owner_name %></span></div>
   <div style="left:21.00px;top:208.59px" class="cls_002"><span class="cls_002">Condición frente al IVA:</span></div>
   <div style="left:131.00px;top:208.59px" class="cls_006"><span class="cls_006"><%= user.tax_category %></span></div>
   <div style="left:262.48px;top:208.59px" class="cls_002"><span class="cls_002">Domicilio Comercial:</span><span class="cls_008"> <%= user.address %></span></div>
